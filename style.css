@@ -1,0 +1,55 @@
+/* style.css */
+
+:root {
+  --primary-color: rgb(84, 186, 185); 
+  --secondary-color:rgb(233,218,193);
+  --third-color:rgb(247,236,222);
+  
+}
+
+body {
+  background-color: rgb(255, 248, 220); /* Override the default body background color */
+}
+
+/* Add any other custom styles or overrides here */
+#nav-bg{
+  background-color: var(--primary-color);
+}
+#firstbtn{
+  background-color:var(--primary-color);
+  
+}
+#first-card:hover {
+  background-color:  rgb(158, 210, 198);
+}
+#first-card{
+  background-color: var(--primary-color);
+}
+#second-card:hover {
+  background-color:  rgb(158, 210, 198);
+  }
+#second-card{
+  background-color: var(--primary-color);
+}
+#third-card:hover {
+  background-color:  rgb(158, 210, 198);
+  }
+#third-card{
+  background-color: var(--primary-color);
+}
+#forjerry{
+  color:lightcoral; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#porfolio{
+  background-color: var(--secondary-color);
+}
+#footer-bg{
+  background-color: var(--primary-color);
+}
+.card{
+  background-color: rgb(158, 210, 198);
+}
+.navbar-brand{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
